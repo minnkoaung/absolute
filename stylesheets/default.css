@@ -1,3 +1,6 @@
+.text_blue{
+    color: #00356c;
+}
 .title_font{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -177,11 +180,11 @@
 /*----------------------------------------------  about us -----------------------------------------------*/
 .nav_title_container_fluid{
   min-height: 165px;
-  background: #000;
+  background-image: url(../images/site_navi_bg.png);
+  background-repeat: repeat-x;
 }
 .site_nav_text{
   line-height: 165px;
-  color: #003165;
   font-size: 1.6em;
 }
 .short_contents{
