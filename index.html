@@ -32,14 +32,42 @@
 
 <body>
     <div class="container-fluid header_container_fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-block d-sm-none">
+            <a class="navbar-brand" href="#"><img src="images/absolute_logo.jpg" class="img-fluid" alt="Absolute Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="searchmaid.html">Search Maid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container header_container">
             <div class="row header_row">
                 <div class="col-12 col-md-12">
                     <div class="row">
-                        <div class="col-4 col-md-4">
+                        <div class="col-4 col-md-4 d-none d-sm-block">
                             <img src="images/absolute_logo.jpg" class="img-fluid" alt="Absolute Logo">
                         </div>
-                        <div class="col-2 col-md-2 text-right">
+                        <div class="col-2 col-md-2 text-right d-none d-sm-block">
                             <img class="flag_img img-fluid" src="images/singapore_flag_img.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-3 tel_box text-right">
@@ -59,7 +87,6 @@
                             </span>
                         </div>
                     </div>
-                    
                     <div class="col-12 col-md-12 menu_wrap_col d-none d-sm-block">
                         <ul class="row menu_ul">
                             <li class="menu_li">
@@ -83,10 +110,9 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
+    </div><!--header_container_fluid-->
     <div class="container-fluid slider_container_fluid d-none d-sm-block">
         <div class="container slider_container">
             <!-- Start slider -->
@@ -131,10 +157,7 @@
                 <h2 class="text-center title_font">Welcome to absolute employment services</h2>
                 <br>
                 <div class="row aboutsec_row ">
-                    <p class="text-center text-font">Absolute Employment Services is committed to provide the best maids for your household needs. Established
-                        since 2008, we are a fully accredited and licensed employment agency in Singapore. Our agency specializes
-                        in sourcing for domestic helpers from Myanmar (formerly known as Burma). We are also able to arrange
-                        for maids from India, Indonesia and the Philippines. </p>
+                    <p class="text-center text-font">Absolute Employment Services is committed to provide the best maids for your household needs. Established since 2008, we are a fully accredited and licensed employment agency in Singapore. Our agency specializes in sourcing for domestic helpers from Myanmar (formerly known as Burma). We are also able to arrange for maids from India, Indonesia and the Philippines. </p>
                 </div>
             </div>
         </div>
@@ -147,71 +170,68 @@
                             <div class="col-md-12">
                                 <div class="row" style="padding-bottom:40px;">
                                     <div class="col-9 col-md-9 maid_bio_inside_col_title">
-                                            <h2 class="Bio_title title_font">Maid Bio Data</h2>
-                                        
+                                        <h2 class="Bio_title title_font">Maid Bio Data</h2>
                                     </div>
-                                    <div class="col-md-3 col-3 maid_bio_inside_col_pagin" >
-                                            <a class="pagin_previous" href="#"></a>
-                                            <a class="pagin_next" href="#"></a>
+                                    <div class="col-md-3 col-3 maid_bio_inside_col_pagin">
+                                        <a class="pagin_previous" href="#"></a>
+                                        <a class="pagin_next" href="#"></a>
                                     </div>
                                 </div>
                             </div>
-                                    
                             <div class="row">
-                            <div class="col-md-12">
-                                <div class="row">
-                            <div class="card col-5 col-md-5 maid_bio_card animated">
-                                <img class="card-img-top rounded img-fluid" src="images/sample_maid_03.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text_font">Nuke Noviana</h4>
-                                    <p class="card-text text_font d-none d-sm-block">
-                                        Country : Indonesian
-                                        <br> Type : NEW
-                                        <br> Salary : 47000
-                                        <br> Available : Available
-                                    </p>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="card col-5 col-md-5 maid_bio_card animated">
+                                            <img class="card-img-top rounded img-fluid" src="images/sample_maid_03.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h4 class="card-title text_font">Nuke Noviana</h4>
+                                                <p class="card-text text_font d-none d-sm-block">
+                                                    Country : Indonesian
+                                                    <br> Type : NEW
+                                                    <br> Salary : 47000
+                                                    <br> Available : Available
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-5 col-md-5 maid_bio_card animated">
+                                            <img class="card-img-top rounded img-fluid" src="images/sample_maid_05.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h4 class="card-title text_font">Nuke Noviana</h4>
+                                                <p class="card-text text_font d-none d-sm-block">
+                                                    Country : Indonesian
+                                                    <br> Type : NEW
+                                                    <br> Salary : 47000
+                                                    <br> Available : Available
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-5 col-md-5 maid_bio_card animated">
+                                            <img class="card-img-top rounded img-fluid" src="images/sample_maid_10.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h4 class="card-title text_font">Nuke Noviana</h4>
+                                                <p class="card-text text_font d-none d-sm-block">
+                                                    Country : Indonesian
+                                                    <br> Type : NEW
+                                                    <br> Salary : 47000
+                                                    <br> Available : Available
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-5 col-md-5 maid_bio_card animated">
+                                            <img class="card-img-top rounded img-fluid" src="images/sample_maid_03.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h4 class="card-title text_font">Nuke Noviana</h4>
+                                                <p class="card-text text_font d-none d-sm-block">
+                                                    Country : Indonesian
+                                                    <br> Type : NEW
+                                                    <br> Salary : 47000
+                                                    <br> Available : Available
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card col-5 col-md-5 maid_bio_card animated">
-                                <img class="card-img-top rounded img-fluid" src="images/sample_maid_05.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text_font">Nuke Noviana</h4>
-                                    <p class="card-text text_font d-none d-sm-block">
-                                        Country : Indonesian
-                                        <br> Type : NEW
-                                        <br> Salary : 47000
-                                        <br> Available : Available
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card col-5 col-md-5 maid_bio_card animated">
-                                <img class="card-img-top rounded img-fluid" src="images/sample_maid_10.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text_font">Nuke Noviana</h4>
-                                    <p class="card-text text_font d-none d-sm-block">
-                                        Country : Indonesian
-                                        <br> Type : NEW
-                                        <br> Salary : 47000
-                                        <br> Available : Available
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card col-5 col-md-5 maid_bio_card animated">
-                                <img class="card-img-top rounded img-fluid" src="images/sample_maid_03.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text_font">Nuke Noviana</h4>
-                                    <p class="card-text text_font d-none d-sm-block">
-                                        Country : Indonesian
-                                        <br> Type : NEW
-                                        <br> Salary : 47000
-                                        <br> Available : Available
-                                    </p>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
                         </div>
                         <!-- maid_bio_inside_row -->
                     </div>
@@ -219,32 +239,30 @@
                         <div class="row maid_bio_col_row">
                             <h2 class="title_font maid_bio_col_title">What We Do</h2>
                             <p class="text_font maid_bio_col_text ">
-                                    Absolute Employment Services is committed in connecting people with different culture and help them to settle in our Singapore environment while providing the best helper for your household needs. We are a fully accredited and licensed employment agency in Singapore, established since 2008. Our agency specializes in sourcing for domestic helpers from Myanmar (formerly known as Burma). We are also able to arrange for maids from India, Indonesia and the Philippines.
-                                    
-                                    Due to the hospitable and simple nature of the Burmese people, the demand for Myanmar maids has risen. They are popular for their reputably good working attitudes and simple personalities. Currently, there are more than 25000 hired in Singapore.
+                                Absolute Employment Services is committed in connecting people with different culture and help them to settle in our Singapore environment while providing the best helper for your household needs. We are a fully accredited and licensed employment agency in Singapore, established since 2008. Our agency specializes in sourcing for domestic helpers from Myanmar (formerly known as Burma). We are also able to arrange for maids from India, Indonesia and the Philippines. Due to the hospitable and simple nature of the Burmese people, the demand for Myanmar maids has risen. They are popular for their reputably good working attitudes and simple personalities. Currently, there are more than 25000 hired in Singapore.
                             </p>
                         </div>
                         <div class="row maid_bio_col_row2">
                             <div class="col-md-12 maid_bio_col_title_wrap">
                                 <h2 class="title_font maid_bio_col_title">What we offer</h2>
                             </div>
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li>Work Permit Application For</li>
-                                        <li>Renewal Work Permit</li>
-                                        <li>Renewal of FDW's Passport</li>
-                                        <li>Cancellation Of Work Permit</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                        <ul>
-                                            <li>Work Permit Application For</li>
-                                            <li>Renewal Work Permit</li>
-                                            <li>Renewal of FDW's Passport</li>
-                                            <li>Cancellation Of Work Permit</li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Work Permit Application For</li>
+                                    <li>Renewal Work Permit</li>
+                                    <li>Renewal of FDW's Passport</li>
+                                    <li>Cancellation Of Work Permit</li>
+                                </ul>
                             </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Work Permit Application For</li>
+                                    <li>Renewal Work Permit</li>
+                                    <li>Renewal of FDW's Passport</li>
+                                    <li>Cancellation Of Work Permit</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- homecontent_row -->
@@ -252,18 +270,14 @@
             <!-- homecontent_container -->
         </div>
         <!-- homecontent_fluid -->
-
-    </div><!-- maincontents -->
+    </div>
+    <!-- maincontents -->
     <div class="footer continer-fluid footer_container_fluid">
         <div class="container footer_container">
             <span><a href="">T:6462 01 20 |</a><a href=""> F: 6462 3564 |</a><a href=""> Hspan:92761261</a></span>
             <span class="float-right"><a href="">Absolute Empployment Services. All Rights Reserved.</a></span>
         </div>
     </div>
-
-
-
-
     <script type="text/javascript" src="engine1/wowslider.js"></script>
     <script type="text/javascript" src="engine1/script.js"></script>
     <!-- End WOWSlider.com BODY section -->
@@ -271,15 +285,15 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script>
-      $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
         if (scroll >= 500) {
             //clearHeader, not clearheader - caps H
             $(".maid_bio_card").addClass("zoomIn");
-        }else{
+        } else {
             $(".maid_bio_card").removeClass("zoomIn");
         }
-    });     
+    });
     </script>
 </body>
 

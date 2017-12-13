@@ -193,3 +193,35 @@
 .aboutcontent_container{
   padding-bottom: 200px;
 }
+/*-----------------------------------------------  Services ----------------------------------------*/
+.services_col{
+    padding: 16px 8px 16px 8px;
+}
+.services_type{
+    padding-left: 0px;
+}
+.services_type li {
+    height: 19px;
+    margin: 20px 0; /* not needed, just to add space between the li's */
+    background: url('../images/bullet.png') no-repeat left center;
+    list-style: none; /* Get rid of the default bullet points */
+    padding-left: 25px; /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 20px; /* Might have to play with this value a bit */
+}
+/*-------------------------------------------- FAQS ------------------------------------------*/
+.faqs_container{
+    padding: 10px 0 10px 0;
+}
+.faqs_row{
+    padding: 16px;
+}
+.accord_text_links{
+    color: #000 !important;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+.send_btn{
+    background: #acb6bf;
+    border-color: #00356c;
+    color: #fff;
+}
