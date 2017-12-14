@@ -1,134 +1,162 @@
-.text_blue{
+.text_blue {
     color: #00356c;
 }
-.title_font{
+
+.title_font {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.text_font{
+
+.text_font {
     font-family: 'Raleway', sans-serif;
 }
 
-.header_container_fluid{
+.header_container_fluid {
     min-height: 198px;
     border-bottom: 5px solid #ebebeb;
 }
-.header_row{
+
+.header_row {
     padding-top: 30px;
 }
-.flag_img{
+
+.flag_img {
     margin-left: 30px;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.main_menu{
+
+.main_menu {
     display: inline-block;
     width: inherit;
     height: 60px;
     overflow: none;
 }
-.menu_ul{
+
+.menu_ul {
     list-style: none;
     padding: 0px;
 }
-.menu_ul li{
+
+.menu_ul li {
     width: 150px;
     height: 60px;
     overflow: none;
     padding: 0px;
 }
-.active_menu{
+
+.active_menu {
     background-position-y: 0px !important;
 }
-.home_menu{
-    background: url(../images/home_menu_btn.jpg); 
+
+.home_menu {
+    background: url(../images/home_menu_btn.jpg);
     background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.home_menu:hover{
-    background: url(../images/home_menu_btn.jpg); 
+
+.home_menu:hover {
+    background: url(../images/home_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.aboutus_menu{
-    background: url(../images/aboutus_menu_btn.jpg); 
-    background-repeat: no-repeat;    
+
+.aboutus_menu {
+    background: url(../images/aboutus_menu_btn.jpg);
+    background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.aboutus_menu:hover{
-    background: url(../images/aboutus_menu_btn.jpg); 
+
+.aboutus_menu:hover {
+    background: url(../images/aboutus_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.services_menu{
-    background: url(../images/services_menu_btn.jpg); 
-    background-repeat: no-repeat;    
+
+.services_menu {
+    background: url(../images/services_menu_btn.jpg);
+    background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.services_menu:hover{
-    background: url(../images/services_menu_btn.jpg); 
+
+.services_menu:hover {
+    background: url(../images/services_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.searchmaid_menu{
-    background: url(../images/searchmaid_menu_btn.jpg); 
-    background-repeat: no-repeat;    
+
+.searchmaid_menu {
+    background: url(../images/searchmaid_menu_btn.jpg);
+    background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.searchmaid_menu:hover{
-    background: url(../images/searchmaid_menu_btn.jpg); 
+
+.searchmaid_menu:hover {
+    background: url(../images/searchmaid_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.faqs_menu{
-    background: url(../images/faq_menu_btn.jpg); 
-    background-repeat: no-repeat;    
+
+.faqs_menu {
+    background: url(../images/faq_menu_btn.jpg);
+    background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.faqs_menu:hover{
-    background: url(../images/faq_menu_btn.jpg); 
+
+.faqs_menu:hover {
+    background: url(../images/faq_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.contactus_menu{
-    background: url(../images/contactus_menu_btn.jpg); 
-    background-repeat: no-repeat;    
+
+.contactus_menu {
+    background: url(../images/contactus_menu_btn.jpg);
+    background-repeat: no-repeat;
     background-position-y: -57px;
 }
-.contactus_menu:hover{
-    background: url(../images/contactus_menu_btn.jpg); 
+
+.contactus_menu:hover {
+    background: url(../images/contactus_menu_btn.jpg);
     background-repeat: no-repeat;
 }
-.aboutsec_container_fluid{
-    background:rgba(139,165,186,0.8);
+
+.aboutsec_container_fluid {
+    background: rgba(139, 165, 186, 0.8);
     min-height: 245px;
 }
-.aboutsec_container{
-    padding:50px 0px 50px 0px;
+
+.aboutsec_container {
+    padding: 50px 0px 50px 0px;
 }
-.aboutsec_container h2{
+
+.aboutsec_container h2 {
     text-align: center;
-    color:#fff;   
+    color: #fff;
 }
-.aboutsec_row p{
+
+.aboutsec_row p {
     text-align: center;
-    color:#fff;
+    color: #fff;
     line-height: 2em;
 }
-.maincontents{
+
+.maincontents {
     width: 100%;
     min-height: 1250px;
     background-image: url(../images/maincontent_bg.png);
     background-repeat: repeat-y;
-
 }
-.homecontent_container{
+
+.homecontent_container {
     padding: 102px 0px 0px 0;
 }
-.maid_bio_card{
+
+.maid_bio_card {
     padding: 5px;
     background: #8ba5ba;
     margin-left: 41px;
-    color:#fff;
+    color: #fff;
     margin-bottom: 15px;
 }
-.Bio_title{
+
+.Bio_title {
     display: inline-block;
 }
-.pagin_previous{
+
+.pagin_previous {
     width: 34px;
     height: 34px;
     overflow: none;
@@ -137,9 +165,9 @@
     background-position-x: 0px;
     position: relative;
     float: left;
-    
 }
-.pagin_next{
+
+.pagin_next {
     width: 34px;
     height: 34px;
     overflow: none;
@@ -149,79 +177,171 @@
     position: relative;
     float: left;
 }
-.maid_bio_inside_col_title{
+
+.maid_bio_inside_col_title {
     padding-left: 40px;
 }
-.maid_bio_inside_col_pagin{
-    padding-left:60px;
+
+.maid_bio_inside_col_pagin {
+    padding-left: 60px;
 }
-.maid_bio_col_title, .maid_bio_col_text{
+
+.maid_bio_col_title,
+.maid_bio_col_text {
     padding: 0px 10px 0px 10px;
 }
-.maid_bio_col_title_wrap{
+
+.maid_bio_col_title_wrap {
     padding-bottom: 50px;
 }
-.maid_bio_col_text{
+
+.maid_bio_col_text {
     margin-top: 40px;
 }
-.maid_bio_col_row2{
+
+.maid_bio_col_row2 {
     margin-top: 100px;
 }
-.footer_container_fluid{
+
+.footer_container_fluid {
     background: #f2f2f2;
 }
-.footer_container{
+
+.footer_container {
     padding: 20px 0 20px 0 !important;
 }
-.footer_container span a{
+
+.footer_container span a {
     text-decoration: none;
     color: #333;
 }
+
+
 /*----------------------------------------------  about us -----------------------------------------------*/
-.nav_title_container_fluid{
-  min-height: 165px;
-  background-image: url(../images/site_navi_bg.png);
-  background-repeat: repeat-x;
+
+.nav_title_container_fluid {
+    min-height: 165px;
+    background-image: url(../images/site_navi_bg.png);
+    background-repeat: repeat-x;
 }
-.site_nav_text{
-  line-height: 165px;
-  font-size: 1.6em;
+
+.site_nav_text {
+    line-height: 165px;
+    font-size: 1.6em;
 }
-.short_contents{
-  min-height: 700px !important;
+
+.short_contents {
+    min-height: 700px !important;
 }
-.aboutcontent_container{
-  padding-bottom: 200px;
+
+.aboutcontent_container {
+    padding-bottom: 200px;
 }
+
+
 /*-----------------------------------------------  Services ----------------------------------------*/
-.services_col{
+
+.services_col {
     padding: 16px 8px 16px 8px;
 }
-.services_type{
+
+.services_type {
     padding-left: 0px;
 }
+
 .services_type li {
     height: 19px;
-    margin: 20px 0; /* not needed, just to add space between the li's */
+    margin: 20px 0;
+    /* not needed, just to add space between the li's */
     background: url('../images/bullet.png') no-repeat left center;
-    list-style: none; /* Get rid of the default bullet points */
-    padding-left: 25px; /* Offsets the text. Needs to be at least the width of your image */
-    line-height: 20px; /* Might have to play with this value a bit */
+    list-style: none;
+    /* Get rid of the default bullet points */
+    padding-left: 25px;
+    /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 20px;
+    /* Might have to play with this value a bit */
 }
+
+
 /*-------------------------------------------- FAQS ------------------------------------------*/
-.faqs_container{
+
+.faqs_container {
     padding: 10px 0 10px 0;
 }
-.faqs_row{
+
+.faqs_row {
     padding: 16px;
 }
-.accord_text_links{
+
+.accord_text_links {
     color: #000 !important;
     font-weight: bolder;
     text-decoration: none !important;
 }
-.send_btn{
+
+.send_btn {
     background: #acb6bf;
     border-color: #00356c;
     color: #fff;
 }
+
+
+/*-----------------------------------search maid-----------------------------------------*/
+
+.search_maid_form {
+    background-color: #f1f1f1;
+    height: auto;
+    border: 1px solid #dfdfdf;
+}
+
+.filter_title {
+    display: block;
+    width: inherit;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #d5d6d8;
+}
+
+.filter_title_light {
+    background-color: #f1f1f1;
+}
+
+.form_section_title_label {
+    display: block;
+}
+
+.search_maid_form_group {
+    padding: 0px 16px 0px 16px;
+}
+
+.ref_no input {
+    width: 100%;
+}
+
+.maid_card {
+    margin-bottom: 16px;
+    padding-top: 16px;
+    border: none;
+    background-color: transparent;
+}
+
+/*----------autoalignImages-----------*/
+.card_img_container {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 242px;
+}
+.card_img_container img{
+    width: 100%;
+    height: 100%;
+}
+/*----------autoalignImages-----------*/
+
+.card-body {
+    background-color: #f1f1f1;
+    border-radius: 0px;
+}
+
