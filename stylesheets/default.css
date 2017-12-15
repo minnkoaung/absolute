@@ -287,7 +287,9 @@
 
 
 /*-----------------------------------search maid-----------------------------------------*/
-
+.search_content_fluid{
+    padding-top: 50px;
+}
 .search_maid_form {
     background-color: #f1f1f1;
     height: auto;
